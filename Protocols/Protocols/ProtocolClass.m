@@ -18,8 +18,10 @@ float allowanceAmount=5000;
 @synthesize empType;
 
 -(ProtocolClass*)initWith:(NSString*)_empName and:(NSString*)_empType{
+    if(self==[super init]){
     empName=_empName;
     empType=_empType;
+    }
     return self;
 }
 - (float)calculateSalary{

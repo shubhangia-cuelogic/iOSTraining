@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UserInfoViewController.h"
 @interface ViewController ()
 
 @end
@@ -33,7 +33,13 @@
     }else{
          [lblLoginText setText:@"Username or password is worng.."];
     }
+    
+   
+    UserInfoViewController* userController=[[UserInfoViewController alloc]init:txtUserName.text and:txtUserPass.text];
+    [self presentViewController:userController animated:YES completion: nil];
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

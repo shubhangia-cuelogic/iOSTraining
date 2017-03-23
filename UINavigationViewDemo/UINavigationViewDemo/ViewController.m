@@ -31,7 +31,7 @@
 
 - (IBAction)ClickMe:(id)sender {
 
-    [self performSegueWithIdentifier:@"NextViewController" sender:self];
+    //[self performSegueWithIdentifier:@"NextViewController" sender:self];
     
 }
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

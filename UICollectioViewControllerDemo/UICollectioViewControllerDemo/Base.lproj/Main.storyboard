@@ -24,11 +24,11 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="UserCollectionViewCell" reuseIdentifier="UserCollectionViewCell" id="27w-Jb-Ckz" customClass="UserCollectionViewCell">
-                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" restorationIdentifier="UserCollectionViewCell" reuseIdentifier="UserCollectionViewCell" id="27w-Jb-Ckz" customClass="UserCollectionViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="122" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="122" height="135"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXm-vf-txh">
@@ -54,7 +54,6 @@
                                         </label>
                                     </subviews>
                                 </view>
-                                <size key="customSize" width="120" height="120"/>
                                 <connections>
                                     <outlet property="lblUserAddress" destination="Zhl-3O-M06" id="oa0-IA-AUB"/>
                                     <outlet property="lblUserMob" destination="YPu-3n-LzN" id="yLZ-ab-xQF"/>

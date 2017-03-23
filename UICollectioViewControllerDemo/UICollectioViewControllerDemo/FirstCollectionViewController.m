@@ -139,5 +139,17 @@ static NSString * const reuseIdentifier = @"UserCollectionViewCell";
 	
 }
 */
+/*- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGFloat picDimension = self.view.frame.size.width / 4.0f;
+    return CGSizeMake(picDimension, picDimension);
+}
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
+{
+    CGFloat leftRightInset = self.view.frame.size.width / 14.0f;
+    return UIEdgeInsetsMake(0, leftRightInset, 0, leftRightInset);
+}
+*/
 
 @end

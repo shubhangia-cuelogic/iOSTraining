@@ -34,7 +34,7 @@
     }
 }
 - (IBAction)secondClick:(id)sender {
-    [self performSegueWithIdentifier:@"SecondViewController" sender:self];
+  //  [self performSegueWithIdentifier:@"SecondViewController" sender:self];
 }
 
 @end

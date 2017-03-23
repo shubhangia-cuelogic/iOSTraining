@@ -1,25 +1,22 @@
 //
-//  SecondViewController.m
+//  ThirdViewController.m
 //  UINavigationViewDemo
 //
-//  Created by Cuelogic on 20/03/17.
+//  Created by Cuelogic on 22/03/17.
 //  Copyright © 2017 Cuelogic. All rights reserved.
 //
 
-#import "SecondViewController.h"
-#import "NextViewController.h"
-@interface SecondViewController ()
+#import "ThirdViewController.h"
+
+@interface ThirdViewController ()
 
 @end
 
-@implementation SecondViewController
-@synthesize lblUserName;
-@synthesize btnThirdClick;
-@synthesize UserName;
+@implementation ThirdViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.lblUserName setText:UserName];
 }
 
 - (void)didReceiveMemoryWarning {

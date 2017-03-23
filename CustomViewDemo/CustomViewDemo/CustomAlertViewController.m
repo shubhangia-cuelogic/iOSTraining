@@ -1,25 +1,24 @@
 //
-//  SecondViewController.m
-//  UINavigationViewDemo
+//  CustomAlertViewController.m
+//  CustomViewDemo
 //
-//  Created by Cuelogic on 20/03/17.
+//  Created by Cuelogic on 22/03/17.
 //  Copyright © 2017 Cuelogic. All rights reserved.
 //
 
-#import "SecondViewController.h"
-#import "NextViewController.h"
-@interface SecondViewController ()
+#import "CustomAlertViewController.h"
+
+@interface CustomAlertViewController ()
 
 @end
 
-@implementation SecondViewController
-@synthesize lblUserName;
-@synthesize btnThirdClick;
-@synthesize UserName;
+@implementation CustomAlertViewController
+@synthesize lblAlertMsg;
+@synthesize btnNo;
+@synthesize btnYes;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    [self.lblUserName setText:UserName];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

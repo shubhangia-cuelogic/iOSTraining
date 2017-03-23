@@ -10,5 +10,6 @@
 
 @interface SecondViewController : UIViewController
 @property IBOutlet UILabel* lblUserName;
+@property IBOutlet UIButton* btnThirdClick;
 @property NSString* UserName;
 @end
